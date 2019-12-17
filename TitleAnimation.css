@@ -1,4 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Baloo+Paaji";
+@import "https://fonts.googleapis.com/css?family=Mansalva";
 
  
  h1, h2 {
@@ -24,8 +25,12 @@
  h1 span:first-child {
 	 animation-delay: 0.7s;
 }
+h1 span:nth-child(2){
+    color: white;;
+    animation-delay: 0.6s;
+}
  h1 span:last-child {
-	 color: #ffe221;
+	 color: white;
 	 animation-delay: 0.5s;
 }
  h2 {
@@ -46,7 +51,7 @@ h2 span:nth-child(2){
 }
  h2 span:nth-child(3) {
      color: #ffe221;
-     margin-left:15%;
+     margin-left:20%;
 	 animation-delay: 5.8s;
 }
  .usechrome {
@@ -97,7 +102,7 @@ h2 span:nth-child(2){
     .FUN {
         display: inline-block;
         color: rgb(177, 174, 174);
-        font-family: 'Righteous', serif;
+        font-family: 'Mansalva', serif;
         font-size: 1em; 
         text-shadow: .03em .03em 0 rgb(108, 167, 243);
         }
