@@ -1,6 +1,7 @@
 button{
     background: none;
   border: 2px solid;
+  color:white;
   border:gray;
   font: inherit;
   line-height: 1;
@@ -9,6 +10,7 @@ button{
 }
 button:hover{
   border:gray;
+ color:black;
   animation:example;
   animation-duration: 1s;
   background-color: yellow;transform: translateY(-0.25em);
@@ -24,4 +26,15 @@ button:hover{
 
 .ClientIMG:hover{
     opacity:0.5;
+}
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
 }
